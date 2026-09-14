@@ -3,16 +3,12 @@
   "buildCommand": "cd frontend && npm install && npm run build",
   "outputDirectory": "frontend/dist",
   "functions": {
-    "api/index.py": {
+    "backend/main.py": {
       "includeFiles": "{backend/**,data/**,clinical.db}"
     }
   },
   "rewrites": [
-    { "source": "/api/(.*)", "destination": "/api/index.py" },
-    { "source": "/patients/(.*)", "destination": "/api/index.py" },
-    { "source": "/patients", "destination": "/api/index.py" },
-    { "source": "/rag/(.*)", "destination": "/api/index.py" },
-    { "source": "/config/(.*)", "destination": "/api/index.py" },
-    { "source": "/(.*)", "destination": "/index.html" }
+    { "source": "/api/(.*)", "destination": "/$1" },
+    { "source": "/((?!api|patients|rag|config).*)", "destination": "/index.html" }
   ]
 }

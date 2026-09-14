@@ -1,2 +1,19 @@
+[project]
+name = "clinical-agent"
+version = "0.1.0"
+description = "Autonomous Clinical Documentation Agent"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.110.0",
+    "uvicorn>=0.28.0",
+    "sqlalchemy>=2.0.0",
+    "pydantic>=2.6.0",
+    "psycopg2-binary>=2.9.9",
+    "openpyxl>=3.1.0",
+]
+
+[tool.uv]
+package = false
+
 [tool.vercel]
 entrypoint = "backend.main:app"
