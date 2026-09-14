@@ -1,0 +1,2943 @@
+[
+  {
+    "id": "P001",
+    "name": "Synthetic Patient 001",
+    "age": 45,
+    "notes": [
+      {
+        "content": "Previous follow-up: Patient was taking Metformin 500mg daily and Drug B 10mg daily.",
+        "source": "previous_note",
+        "created_at": "2026-08-20"
+      }
+    ],
+    "medications": [
+      {
+        "name": "Metformin",
+        "dose": "500 mg",
+        "frequency": "once daily",
+        "status": "active",
+        "source": "medication_database",
+        "updated_at": "2026-09-10"
+      },
+      {
+        "name": "Drug B",
+        "dose": "10 mg",
+        "frequency": "once daily",
+        "status": "discontinued",
+        "source": "medication_database",
+        "updated_at": "2026-09-10"
+      }
+    ],
+    "allergies": [
+      {
+        "allergen": "Penicillin",
+        "reaction": "Unknown",
+        "source": "allergy_database",
+        "updated_at": "2026-09-08"
+      }
+    ],
+    "labs": [
+      {
+        "test_name": "HbA1c",
+        "value": "7.1",
+        "unit": "%",
+        "source": "laboratory_database",
+        "date": "2026-09-10"
+      },
+      {
+        "test_name": "Creatinine",
+        "value": "1.0",
+        "unit": "mg/dL",
+        "source": "laboratory_database",
+        "date": "2026-09-10"
+      }
+    ],
+    "consultations": [
+      {
+        "transcript": "Patient reports that they are still taking Metformin 500 mg once daily.\nPatient says they stopped Drug B approximately one week ago.\nPatient reports no known drug allergies.\nRecent blood work was discussed during the consultation.",
+        "source": "consultation",
+        "created_at": "2026-09-13"
+      }
+    ]
+  },
+  {
+    "id": "P007",
+    "name": "Patient P007",
+    "age": 72,
+    "notes": [
+      {
+        "content": "Furosemide 40 mg daily; Carvedilol 12.5 mg twice daily",
+        "source": "previous_note",
+        "created_at": "2026-08-20"
+      }
+    ],
+    "medications": [
+      {
+        "name": "Furosemide",
+        "dose": "40 mg",
+        "frequency": "daily",
+        "status": "active",
+        "source": "medication_database",
+        "updated_at": "2026-09-10"
+      },
+      {
+        "name": "Carvedilol",
+        "dose": "12.5 mg",
+        "frequency": "twice daily",
+        "status": "active",
+        "source": "medication_database",
+        "updated_at": "2026-09-10"
+      }
+    ],
+    "allergies": [
+      {
+        "allergen": "No known medication allergies",
+        "reaction": "None documented",
+        "source": "allergy_database",
+        "updated_at": "2026-09-08"
+      }
+    ],
+    "labs": [
+      {
+        "test_name": "Creatinine",
+        "value": "1.2",
+        "unit": "mg/dL",
+        "source": "laboratory_database",
+        "date": "2026-09-10"
+      },
+      {
+        "test_name": "Potassium",
+        "value": "4.4",
+        "unit": "mmol/L",
+        "source": "laboratory_database",
+        "date": "2026-09-10"
+      }
+    ],
+    "consultations": [
+      {
+        "transcript": "Reports taking both medicines as listed; reports increased nighttime urination for 1 week",
+        "source": "consultation",
+        "created_at": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "id": "P008",
+    "name": "Patient P008",
+    "age": 46,
+    "notes": [
+      {
+        "content": "Propranolol 20 mg twice daily; Cetirizine 10 mg daily",
+        "source": "previous_note",
+        "created_at": "2026-08-20"
+      }
+    ],
+    "medications": [
+      {
+        "name": "Propranolol",
+        "dose": "40 mg",
+        "frequency": "twice daily",
+        "status": "active",
+        "source": "medication_database",
+        "updated_at": "2026-09-10"
+      },
+      {
+        "name": "Cetirizine",
+        "dose": "10 mg",
+        "frequency": "daily",
+        "status": "active",
+        "source": "medication_database",
+        "updated_at": "2026-09-10"
+      }
+    ],
+    "allergies": [
+      {
+        "allergen": "Ibuprofen",
+        "reaction": "hives",
+        "source": "allergy_database",
+        "updated_at": "2026-09-08"
+      }
+    ],
+    "labs": [
+      {
+        "test_name": "Creatinine",
+        "value": "0.8",
+        "unit": "mg/dL",
+        "source": "laboratory_database",
+        "date": "2026-09-10"
+      }
+    ],
+    "consultations": [
+      {
+        "transcript": "Patient unsure whether propranolol is 20 mg or 40 mg; reports dizziness after morning dose",
+        "source": "consultation",
+        "created_at": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "id": "P009",
+    "name": "Patient P009",
+    "age": 55,
+    "notes": [
+      {
+        "content": "Omeprazole 20 mg daily; Atorvastatin 20 mg nightly",
+        "source": "previous_note",
+        "created_at": "2026-08-20"
+      }
+    ],
+    "medications": [
+      {
+        "name": "Omeprazole",
+        "dose": "20 mg",
+        "frequency": "daily",
+        "status": "active",
+        "source": "medication_database",
+        "updated_at": "2026-09-10"
+      },
+      {
+        "name": "Atorvastatin",
+        "dose": "20 mg",
+        "frequency": "nightly",
+        "status": "active",
+        "source": "medication_database",
+        "updated_at": "2026-09-10"
+      }
+    ],
+    "allergies": [
+      {
+        "allergen": "No known medication allergies",
+        "reaction": "None documented",
+        "source": "allergy_database",
+        "updated_at": "2026-09-08"
+      }
+    ],
+    "labs": [
+      {
+        "test_name": "ALT",
+        "value": "28",
+        "unit": "U/L",
+        "source": "laboratory_database",
+        "date": "2026-09-10"
+      },
+      {
+        "test_name": "LDL",
+        "value": "102",
+        "unit": "mg/dL",
+        "source": "laboratory_database",
+        "date": "2026-09-10"
+      }
+    ],
+    "consultations": [
+      {
+        "transcript": "Confirms both medications and doses; no new symptoms",
+        "source": "consultation",
+        "created_at": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "id": "P010",
+    "name": "Patient P010",
+    "age": 61,
+    "notes": [
+      {
+        "content": "Losartan 50 mg daily",
+        "source": "previous_note",
+        "created_at": "2026-08-20"
+      }
+    ],
+    "medications": [
+      {
+        "name": "Losartan",
+        "dose": "50 mg",
+        "frequency": "daily",
+        "status": "active",
+        "source": "medication_database",
+        "updated_at": "2026-09-10"
+      },
+      {
+        "name": "Amlodipine",
+        "dose": "5 mg",
+        "frequency": "daily",
+        "status": "active",
+        "source": "medication_database",
+        "updated_at": "2026-09-08"
+      }
+    ],
+    "allergies": [
+      {
+        "allergen": "Penicillin",
+        "reaction": "rash",
+        "source": "allergy_database",
+        "updated_at": "2026-09-08"
+      }
+    ],
+    "labs": [
+      {
+        "test_name": "Creatinine",
+        "value": "1.5",
+        "unit": "mg/dL",
+        "source": "laboratory_database",
+        "date": "2026-09-10"
+      },
+      {
+        "test_name": "Potassium",
+        "value": "4.9",
+        "unit": "mmol/L",
+        "source": "laboratory_database",
+        "date": "2026-09-10"
+      }
+    ],
+    "consultations": [
+      {
+        "transcript": "Reports starting a second blood-pressure tablet but cannot recall its name; allergy list says penicillin rash",
+        "source": "consultation",
+        "created_at": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "id": "P011",
+    "name": "Patient P011",
+    "age": 34,
+    "notes": [
+      {
+        "content": "Budesonide/formoterol inhaler; Albuterol inhaler as needed",
+        "source": "previous_note",
+        "created_at": "2026-08-20"
+      }
+    ],
+    "medications": [
+      {
+        "name": "Budesonide/formoterol",
+        "dose": "",
+        "frequency": "",
+        "status": "active",
+        "source": "medication_database",
+        "updated_at": "2026-09-10"
+      },
+      {
+        "name": "Albuterol",
+        "dose": "",
+        "frequency": "",
+        "status": "active",
+        "source": "medication_database",
+        "updated_at": "2026-09-10"
+      }
+    ],
+    "allergies": [
+      {
+        "allergen": "No known medication allergies",
+        "reaction": "None documented",
+        "source": "allergy_database",
+        "updated_at": "2026-09-08"
+      }
+    ],
+    "labs": [],
+    "consultations": [
+      {
+        "transcript": "Confirms inhalers; reports using rescue inhaler more frequently during the past week",
+        "source": "consultation",
+        "created_at": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "id": "P012",
+    "name": "Patient P012",
+    "age": 68,
+    "notes": [
+      {
+        "content": "Metformin 500 mg twice daily; Lisinopril 10 mg daily",
+        "source": "previous_note",
+        "created_at": "2026-08-20"
+      }
+    ],
+    "medications": [
+      {
+        "name": "Metformin",
+        "dose": "500 mg",
+        "frequency": "twice daily",
+        "status": "active",
+        "source": "medication_database",
+        "updated_at": "2026-09-10"
+      },
+      {
+        "name": "Lisinopril",
+        "dose": "10 mg",
+        "frequency": "daily",
+        "status": "discontinued",
+        "source": "medication_database",
+        "updated_at": "2026-09-06"
+      },
+      {
+        "name": "Losartan",
+        "dose": "50 mg",
+        "frequency": "daily",
+        "status": "active",
+        "source": "medication_database",
+        "updated_at": "2026-09-06"
+      }
+    ],
+    "allergies": [
+      {
+        "allergen": "Penicillin",
+        "reaction": "unknown reaction",
+        "source": "allergy_database",
+        "updated_at": "2026-09-08"
+      }
+    ],
+    "labs": [
+      {
+        "test_name": "HbA1c",
+        "value": "7.4",
+        "unit": "%",
+        "source": "laboratory_database",
+        "date": "2026-09-10"
+      },
+      {
+        "test_name": "Creatinine",
+        "value": "1.1",
+        "unit": "mg/dL",
+        "source": "laboratory_database",
+        "date": "2026-09-10"
+      }
+    ],
+    "consultations": [
+      {
+        "transcript": "States lisinopril was stopped and losartan started after recent medication review",
+        "source": "consultation",
+        "created_at": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "id": "P013",
+    "name": "Patient P013",
+    "age": 42,
+    "notes": [
+      {
+        "content": "Levothyroxine 50 mcg daily",
+        "source": "previous_note",
+        "created_at": "2026-08-20"
+      }
+    ],
+    "medications": [
+      {
+        "name": "Levothyroxine",
+        "dose": "75 mcg",
+        "frequency": "daily",
+        "status": "active",
+        "source": "medication_database",
+        "updated_at": "2026-09-11"
+      }
+    ],
+    "allergies": [
+      {
+        "allergen": "No known medication allergies",
+        "reaction": "None documented",
+        "source": "allergy_database",
+        "updated_at": "2026-09-08"
+      }
+    ],
+    "labs": [
+      {
+        "test_name": "TSH",
+        "value": "5.1",
+        "unit": "mIU/L",
+        "source": "laboratory_database",
+        "date": "2026-09-10"
+      },
+      {
+        "test_name": "Free T4",
+        "value": "1.0",
+        "unit": "ng/dL",
+        "source": "laboratory_database",
+        "date": "2026-09-10"
+      }
+    ],
+    "consultations": [
+      {
+        "transcript": "Patient says tablet was increased but cannot recall whether new dose is 75 mcg; previous note still says 50 mcg",
+        "source": "consultation",
+        "created_at": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "id": "P014",
+    "name": "Patient P014",
+    "age": 59,
+    "notes": [
+      {
+        "content": "Paracetamol 500 mg as needed; Amlodipine 5 mg daily",
+        "source": "previous_note",
+        "created_at": "2026-08-20"
+      }
+    ],
+    "medications": [
+      {
+        "name": "Paracetamol",
+        "dose": "500 mg",
+        "frequency": "as needed",
+        "status": "active",
+        "source": "medication_database",
+        "updated_at": "2026-09-10"
+      },
+      {
+        "name": "Amlodipine",
+        "dose": "5 mg",
+        "frequency": "daily",
+        "status": "active",
+        "source": "medication_database",
+        "updated_at": "2026-09-10"
+      }
+    ],
+    "allergies": [
+      {
+        "allergen": "Aspirin",
+        "reaction": "stomach discomfort",
+        "source": "allergy_database",
+        "updated_at": "2026-09-08"
+      }
+    ],
+    "labs": [
+      {
+        "test_name": "Creatinine",
+        "value": "0.9",
+        "unit": "mg/dL",
+        "source": "laboratory_database",
+        "date": "2026-09-10"
+      }
+    ],
+    "consultations": [
+      {
+        "transcript": "Confirms medication list; reports occasional stomach discomfort after taking aspirin obtained outside current medication list",
+        "source": "consultation",
+        "created_at": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "id": "P015",
+    "name": "Patient P015",
+    "age": 49,
+    "notes": [
+      {
+        "content": "Sertraline 50 mg daily; Atorvastatin 20 mg nightly",
+        "source": "previous_note",
+        "created_at": "2026-08-20"
+      }
+    ],
+    "medications": [
+      {
+        "name": "Sertraline",
+        "dose": "50 mg",
+        "frequency": "daily",
+        "status": "active",
+        "source": "medication_database",
+        "updated_at": "2026-09-10"
+      },
+      {
+        "name": "Atorvastatin",
+        "dose": "20 mg",
+        "frequency": "nightly",
+        "status": "active",
+        "source": "medication_database",
+        "updated_at": "2026-09-10"
+      }
+    ],
+    "allergies": [
+      {
+        "allergen": "No known medication allergies",
+        "reaction": "None documented",
+        "source": "allergy_database",
+        "updated_at": "2026-09-08"
+      }
+    ],
+    "labs": [
+      {
+        "test_name": "ALT",
+        "value": "31",
+        "unit": "U/L",
+        "source": "laboratory_database",
+        "date": "2026-09-10"
+      },
+      {
+        "test_name": "LDL",
+        "value": "115",
+        "unit": "mg/dL",
+        "source": "laboratory_database",
+        "date": "2026-09-10"
+      }
+    ],
+    "consultations": [
+      {
+        "transcript": "Confirms doses; reports mild nausea during first few days after a recent refill",
+        "source": "consultation",
+        "created_at": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "id": "P016",
+    "name": "Patient P016",
+    "age": 76,
+    "notes": [
+      {
+        "content": "Apixaban 5 mg twice daily; Amlodipine 5 mg daily",
+        "source": "previous_note",
+        "created_at": "2026-08-20"
+      }
+    ],
+    "medications": [
+      {
+        "name": "Apixaban",
+        "dose": "5 mg",
+        "frequency": "twice daily",
+        "status": "active",
+        "source": "medication_database",
+        "updated_at": "2026-09-10"
+      },
+      {
+        "name": "Amlodipine",
+        "dose": "10 mg",
+        "frequency": "daily",
+        "status": "active",
+        "source": "medication_database",
+        "updated_at": "2026-09-10"
+      }
+    ],
+    "allergies": [
+      {
+        "allergen": "Sulfonamide antibiotics",
+        "reaction": "rash",
+        "source": "allergy_database",
+        "updated_at": "2026-09-08"
+      }
+    ],
+    "labs": [
+      {
+        "test_name": "Hemoglobin",
+        "value": "12.8",
+        "unit": "g/dL",
+        "source": "laboratory_database",
+        "date": "2026-09-10"
+      },
+      {
+        "test_name": "Creatinine",
+        "value": "1.0",
+        "unit": "mg/dL",
+        "source": "laboratory_database",
+        "date": "2026-09-10"
+      }
+    ],
+    "consultations": [
+      {
+        "transcript": "Patient reports taking amlodipine but cannot confirm whether dose is 5 mg or 10 mg; confirms apixaban",
+        "source": "consultation",
+        "created_at": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "id": "P017",
+    "name": "Patient P017",
+    "age": 37,
+    "notes": [
+      {
+        "content": "Ferrous sulfate 325 mg daily",
+        "source": "previous_note",
+        "created_at": "2026-08-20"
+      }
+    ],
+    "medications": [
+      {
+        "name": "Ferrous sulfate",
+        "dose": "325 mg",
+        "frequency": "daily",
+        "status": "active",
+        "source": "medication_database",
+        "updated_at": "2026-09-10"
+      }
+    ],
+    "allergies": [
+      {
+        "allergen": "No known medication allergies",
+        "reaction": "None documented",
+        "source": "allergy_database",
+        "updated_at": "2026-09-08"
+      }
+    ],
+    "labs": [
+      {
+        "test_name": "Hemoglobin",
+        "value": "10.8",
+        "unit": "g/dL",
+        "source": "laboratory_database",
+        "date": "2026-09-10"
+      },
+      {
+        "test_name": "Ferritin",
+        "value": "14",
+        "unit": "ng/mL",
+        "source": "laboratory_database",
+        "date": "2026-09-10"
+      }
+    ],
+    "consultations": [
+      {
+        "transcript": "Confirms iron tablet and dose; reports constipation since starting it",
+        "source": "consultation",
+        "created_at": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "id": "P018",
+    "name": "Patient P018",
+    "age": 64,
+    "notes": [
+      {
+        "content": "Metformin 1000 mg daily; Atorvastatin 40 mg nightly",
+        "source": "previous_note",
+        "created_at": "2026-08-20"
+      }
+    ],
+    "medications": [
+      {
+        "name": "Metformin",
+        "dose": "1000 mg",
+        "frequency": "daily",
+        "status": "active",
+        "source": "medication_database",
+        "updated_at": "2026-09-10"
+      },
+      {
+        "name": "Atorvastatin",
+        "dose": "40 mg",
+        "frequency": "nightly",
+        "status": "active",
+        "source": "medication_database",
+        "updated_at": "2026-09-10"
+      }
+    ],
+    "allergies": [
+      {
+        "allergen": "Metformin",
+        "reaction": "nausea (patient",
+        "source": "allergy_database",
+        "updated_at": "2026-09-08"
+      }
+    ],
+    "labs": [
+      {
+        "test_name": "HbA1c",
+        "value": "7.2",
+        "unit": "%",
+        "source": "laboratory_database",
+        "date": "2026-09-10"
+      },
+      {
+        "test_name": "LDL",
+        "value": "96",
+        "unit": "mg/dL",
+        "source": "laboratory_database",
+        "date": "2026-09-10"
+      }
+    ],
+    "consultations": [
+      {
+        "transcript": "Consultation says patient has no medication allergies, but allergy/history source lists nausea with metformin",
+        "source": "consultation",
+        "created_at": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "id": "P019",
+    "name": "Patient P019",
+    "age": 28,
+    "notes": [
+      {
+        "content": "No chronic medications",
+        "source": "previous_note",
+        "created_at": "2026-08-20"
+      }
+    ],
+    "medications": [
+      {
+        "name": "Doxycycline",
+        "dose": "100 mg",
+        "frequency": "daily",
+        "status": "active",
+        "source": "medication_database",
+        "updated_at": "2026-09-12"
+      }
+    ],
+    "allergies": [
+      {
+        "allergen": "No known medication allergies",
+        "reaction": "None documented",
+        "source": "allergy_database",
+        "updated_at": "2026-09-08"
+      }
+    ],
+    "labs": [],
+    "consultations": [
+      {
+        "transcript": "Patient says they started a new capsule two days ago but cannot identify it; database identifies doxycycline",
+        "source": "consultation",
+        "created_at": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "id": "P020",
+    "name": "Patient P020",
+    "age": 70,
+    "notes": [
+      {
+        "content": "Tiotropium inhaler daily; Amlodipine 5 mg daily",
+        "source": "previous_note",
+        "created_at": "2026-08-20"
+      }
+    ],
+    "medications": [
+      {
+        "name": "Tiotropium",
+        "dose": "",
+        "frequency": "",
+        "status": "active",
+        "source": "medication_database",
+        "updated_at": "2026-09-10"
+      },
+      {
+        "name": "Amlodipine",
+        "dose": "5 mg",
+        "frequency": "daily",
+        "status": "active",
+        "source": "medication_database",
+        "updated_at": "2026-09-10"
+      }
+    ],
+    "allergies": [
+      {
+        "allergen": "Penicillin",
+        "reaction": "rash",
+        "source": "allergy_database",
+        "updated_at": "2026-09-08"
+      }
+    ],
+    "labs": [
+      {
+        "test_name": "Creatinine",
+        "value": "1.0",
+        "unit": "mg/dL",
+        "source": "laboratory_database",
+        "date": "2026-09-10"
+      }
+    ],
+    "consultations": [
+      {
+        "transcript": "Confirms inhaler and amlodipine; reports penicillin rash and corrects an older note that said no allergies",
+        "source": "consultation",
+        "created_at": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "id": "P021",
+    "name": "Patient P021",
+    "age": 52,
+    "notes": [
+      {
+        "content": "Pantoprazole 40 mg daily; Levothyroxine 75 mcg daily",
+        "source": "previous_note",
+        "created_at": "2026-08-20"
+      }
+    ],
+    "medications": [
+      {
+        "name": "Pantoprazole",
+        "dose": "40 mg",
+        "frequency": "daily",
+        "status": "active",
+        "source": "medication_database",
+        "updated_at": "2026-09-10"
+      },
+      {
+        "name": "Levothyroxine",
+        "dose": "75 mcg",
+        "frequency": "daily",
+        "status": "active",
+        "source": "medication_database",
+        "updated_at": "2026-09-10"
+      }
+    ],
+    "allergies": [
+      {
+        "allergen": "No known medication allergies",
+        "reaction": "None documented",
+        "source": "allergy_database",
+        "updated_at": "2026-09-08"
+      }
+    ],
+    "labs": [
+      {
+        "test_name": "TSH",
+        "value": "2.4",
+        "unit": "mIU/L",
+        "source": "laboratory_database",
+        "date": "2026-09-10"
+      },
+      {
+        "test_name": "Creatinine",
+        "value": "0.9",
+        "unit": "mg/dL",
+        "source": "laboratory_database",
+        "date": "2026-09-10"
+      }
+    ],
+    "consultations": [
+      {
+        "transcript": "Confirms both medications, doses, and no known medication allergies",
+        "source": "consultation",
+        "created_at": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "id": "P022",
+    "name": "Patient P022",
+    "age": 60,
+    "notes": [
+      {
+        "content": "Losartan 50 mg daily; Allopurinol 100 mg daily",
+        "source": "previous_note",
+        "created_at": "2026-08-20"
+      }
+    ],
+    "medications": [
+      {
+        "name": "Losartan",
+        "dose": "50 mg",
+        "frequency": "daily",
+        "status": "active",
+        "source": "medication_database",
+        "updated_at": "2026-09-10"
+      },
+      {
+        "name": "Allopurinol",
+        "dose": "100 mg",
+        "frequency": "twice daily",
+        "status": "active",
+        "source": "medication_database",
+        "updated_at": "2026-09-10"
+      }
+    ],
+    "allergies": [
+      {
+        "allergen": "No known medication allergies",
+        "reaction": "None documented",
+        "source": "allergy_database",
+        "updated_at": "2026-09-08"
+      }
+    ],
+    "labs": [
+      {
+        "test_name": "Creatinine",
+        "value": "1.2",
+        "unit": "mg/dL",
+        "source": "laboratory_database",
+        "date": "2026-09-10"
+      },
+      {
+        "test_name": "Uric acid",
+        "value": "7.1",
+        "unit": "mg/dL",
+        "source": "laboratory_database",
+        "date": "2026-09-10"
+      }
+    ],
+    "consultations": [
+      {
+        "transcript": "Patient confirms losartan but says allopurinol is taken once daily, while database says twice daily",
+        "source": "consultation",
+        "created_at": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "id": "P023",
+    "name": "Patient P023",
+    "age": 44,
+    "notes": [
+      {
+        "content": "Metformin 500 mg twice daily",
+        "source": "previous_note",
+        "created_at": "2026-08-20"
+      }
+    ],
+    "medications": [
+      {
+        "name": "Metformin",
+        "dose": "500 mg",
+        "frequency": "twice daily",
+        "status": "active",
+        "source": "medication_database",
+        "updated_at": "2026-09-10"
+      }
+    ],
+    "allergies": [
+      {
+        "allergen": "Penicillin",
+        "reaction": "rash",
+        "source": "allergy_database",
+        "updated_at": "2026-09-08"
+      }
+    ],
+    "labs": [
+      {
+        "test_name": "HbA1c",
+        "value": "8.0",
+        "unit": "%",
+        "source": "laboratory_database",
+        "date": "2026-09-10"
+      },
+      {
+        "test_name": "Creatinine",
+        "value": "0.9",
+        "unit": "mg/dL",
+        "source": "laboratory_database",
+        "date": "2026-09-10"
+      }
+    ],
+    "consultations": [
+      {
+        "transcript": "Consultation confirms metformin; patient initially says no allergies, then recalls a childhood penicillin rash",
+        "source": "consultation",
+        "created_at": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "id": "P024",
+    "name": "Patient P024",
+    "age": 66,
+    "notes": [
+      {
+        "content": "Amlodipine 5 mg daily; Rosuvastatin 10 mg nightly",
+        "source": "previous_note",
+        "created_at": "2026-08-20"
+      }
+    ],
+    "medications": [
+      {
+        "name": "Amlodipine",
+        "dose": "5 mg",
+        "frequency": "daily",
+        "status": "active",
+        "source": "medication_database",
+        "updated_at": "2026-09-10"
+      },
+      {
+        "name": "Rosuvastatin",
+        "dose": "10 mg",
+        "frequency": "nightly",
+        "status": "active",
+        "source": "medication_database",
+        "updated_at": "2026-09-10"
+      },
+      {
+        "name": "Amlodipine",
+        "dose": "",
+        "frequency": "",
+        "status": "active",
+        "source": "medication_database",
+        "updated_at": "2026-09-13"
+      }
+    ],
+    "allergies": [
+      {
+        "allergen": "No known medication allergies",
+        "reaction": "None documented",
+        "source": "allergy_database",
+        "updated_at": "2026-09-08"
+      }
+    ],
+    "labs": [
+      {
+        "test_name": "LDL",
+        "value": "89",
+        "unit": "mg/dL",
+        "source": "laboratory_database",
+        "date": "2026-09-10"
+      },
+      {
+        "test_name": "Creatinine",
+        "value": "0.8",
+        "unit": "mg/dL",
+        "source": "laboratory_database",
+        "date": "2026-09-10"
+      }
+    ],
+    "consultations": [
+      {
+        "transcript": "Confirms current medications; reports missing one dose of amlodipine yesterday",
+        "source": "consultation",
+        "created_at": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "id": "P025",
+    "name": "Patient P025",
+    "age": 57,
+    "notes": [
+      {
+        "content": "Tamsulosin 0.4 mg nightly; Amlodipine 5 mg daily",
+        "source": "previous_note",
+        "created_at": "2026-08-20"
+      }
+    ],
+    "medications": [
+      {
+        "name": "Tamsulosin",
+        "dose": "0.4 mg",
+        "frequency": "nightly",
+        "status": "active",
+        "source": "medication_database",
+        "updated_at": "2026-09-10"
+      },
+      {
+        "name": "Amlodipine",
+        "dose": "5 mg",
+        "frequency": "daily",
+        "status": "active",
+        "source": "medication_database",
+        "updated_at": "2026-09-10"
+      }
+    ],
+    "allergies": [
+      {
+        "allergen": "No known medication allergies",
+        "reaction": "None documented",
+        "source": "allergy_database",
+        "updated_at": "2026-09-08"
+      }
+    ],
+    "labs": [
+      {
+        "test_name": "Creatinine",
+        "value": "1.0",
+        "unit": "mg/dL",
+        "source": "laboratory_database",
+        "date": "2026-09-10"
+      }
+    ],
+    "consultations": [
+      {
+        "transcript": "Reports taking both; says he feels light-headed when standing quickly",
+        "source": "consultation",
+        "created_at": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "id": "P026",
+    "name": "Patient P026",
+    "age": 73,
+    "notes": [
+      {
+        "content": "Alendronate 70 mg weekly; Levothyroxine 75 mcg daily",
+        "source": "previous_note",
+        "created_at": "2026-08-20"
+      }
+    ],
+    "medications": [
+      {
+        "name": "Alendronate",
+        "dose": "70 mg",
+        "frequency": "weekly",
+        "status": "discontinued",
+        "source": "medication_database",
+        "updated_at": "2026-09-08"
+      },
+      {
+        "name": "Levothyroxine",
+        "dose": "75 mcg",
+        "frequency": "daily",
+        "status": "active",
+        "source": "medication_database",
+        "updated_at": "2026-09-10"
+      }
+    ],
+    "allergies": [
+      {
+        "allergen": "Penicillin",
+        "reaction": "unknown reaction",
+        "source": "allergy_database",
+        "updated_at": "2026-09-08"
+      }
+    ],
+    "labs": [
+      {
+        "test_name": "TSH",
+        "value": "2.7",
+        "unit": "mIU/L",
+        "source": "laboratory_database",
+        "date": "2026-09-10"
+      },
+      {
+        "test_name": "Calcium",
+        "value": "9.2",
+        "unit": "mg/dL",
+        "source": "laboratory_database",
+        "date": "2026-09-10"
+      }
+    ],
+    "consultations": [
+      {
+        "transcript": "Patient says alendronate was stopped after a recent review and confirms levothyroxine",
+        "source": "consultation",
+        "created_at": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "id": "P027",
+    "name": "Patient P027",
+    "age": 48,
+    "notes": [
+      {
+        "content": "Losartan 50 mg once daily; Rosuvastatin 10 mg nightly",
+        "source": "previous_note",
+        "created_at": "2026-08-20"
+      }
+    ],
+    "medications": [
+      {
+        "name": "Losartan",
+        "dose": "50 mg",
+        "frequency": "once daily",
+        "status": "active",
+        "source": "medication_database",
+        "updated_at": "2026-09-10"
+      },
+      {
+        "name": "Rosuvastatin",
+        "dose": "10 mg",
+        "frequency": "nightly",
+        "status": "active",
+        "source": "medication_database",
+        "updated_at": "2026-09-10"
+      }
+    ],
+    "allergies": [
+      {
+        "allergen": "No known medication allergies",
+        "reaction": "None documented",
+        "source": "allergy_database",
+        "updated_at": "2026-09-08"
+      }
+    ],
+    "labs": [
+      {
+        "test_name": "Creatinine",
+        "value": "0.9",
+        "unit": "mg/dL",
+        "source": "laboratory_database",
+        "date": "2026-09-10"
+      },
+      {
+        "test_name": "LDL",
+        "value": "94",
+        "unit": "mg/dL",
+        "source": "laboratory_database",
+        "date": "2026-09-10"
+      }
+    ],
+    "consultations": [
+      {
+        "transcript": "Confirms both medicines and doses. Reports occasional headache over the last three days.",
+        "source": "consultation",
+        "created_at": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "id": "P028",
+    "name": "Patient P028",
+    "age": 62,
+    "notes": [
+      {
+        "content": "Metformin 500 mg twice daily; Amlodipine 5 mg once daily",
+        "source": "previous_note",
+        "created_at": "2026-08-20"
+      }
+    ],
+    "medications": [
+      {
+        "name": "Metformin",
+        "dose": "1000 mg",
+        "frequency": "twice daily",
+        "status": "active",
+        "source": "medication_database",
+        "updated_at": "2026-09-10"
+      },
+      {
+        "name": "Amlodipine",
+        "dose": "5 mg",
+        "frequency": "once daily",
+        "status": "active",
+        "source": "medication_database",
+        "updated_at": "2026-09-10"
+      }
+    ],
+    "allergies": [
+      {
+        "allergen": "Penicillin",
+        "reaction": "rash",
+        "source": "allergy_database",
+        "updated_at": "2026-09-08"
+      }
+    ],
+    "labs": [
+      {
+        "test_name": "HbA1c",
+        "value": "7.6",
+        "unit": "%",
+        "source": "laboratory_database",
+        "date": "2026-09-10"
+      },
+      {
+        "test_name": "Creatinine",
+        "value": "1.0",
+        "unit": "mg/dL",
+        "source": "laboratory_database",
+        "date": "2026-09-10"
+      }
+    ],
+    "consultations": [
+      {
+        "transcript": "Patient says metformin was increased but cannot remember whether the new tablets are 500 mg or 1000 mg.",
+        "source": "consultation",
+        "created_at": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "id": "P029",
+    "name": "Patient P029",
+    "age": 35,
+    "notes": [
+      {
+        "content": "Budesonide/formoterol inhaler; Cetirizine 10 mg daily",
+        "source": "previous_note",
+        "created_at": "2026-08-20"
+      }
+    ],
+    "medications": [
+      {
+        "name": "Budesonide/formoterol",
+        "dose": "",
+        "frequency": "",
+        "status": "active",
+        "source": "medication_database",
+        "updated_at": "2026-09-10"
+      },
+      {
+        "name": "Cetirizine",
+        "dose": "10 mg",
+        "frequency": "daily",
+        "status": "active",
+        "source": "medication_database",
+        "updated_at": "2026-09-10"
+      }
+    ],
+    "allergies": [
+      {
+        "allergen": "No known medication allergies",
+        "reaction": "None documented",
+        "source": "allergy_database",
+        "updated_at": "2026-09-08"
+      }
+    ],
+    "labs": [],
+    "consultations": [
+      {
+        "transcript": "Confirms inhalers and cetirizine. Reports using the rescue inhaler twice yesterday.",
+        "source": "consultation",
+        "created_at": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "id": "P030",
+    "name": "Patient P030",
+    "age": 69,
+    "notes": [
+      {
+        "content": "Apixaban 5 mg twice daily; Metoprolol 25 mg twice daily",
+        "source": "previous_note",
+        "created_at": "2026-08-20"
+      }
+    ],
+    "medications": [
+      {
+        "name": "Apixaban",
+        "dose": "5 mg",
+        "frequency": "twice daily",
+        "status": "active",
+        "source": "medication_database",
+        "updated_at": "2026-09-10"
+      },
+      {
+        "name": "Metoprolol",
+        "dose": "50 mg",
+        "frequency": "twice daily",
+        "status": "active",
+        "source": "medication_database",
+        "updated_at": "2026-09-10"
+      }
+    ],
+    "allergies": [
+      {
+        "allergen": "No known medication allergies",
+        "reaction": "None documented",
+        "source": "allergy_database",
+        "updated_at": "2026-09-08"
+      }
+    ],
+    "labs": [
+      {
+        "test_name": "Hemoglobin",
+        "value": "13.1",
+        "unit": "g/dL",
+        "source": "laboratory_database",
+        "date": "2026-09-10"
+      },
+      {
+        "test_name": "Creatinine",
+        "value": "1.1",
+        "unit": "mg/dL",
+        "source": "laboratory_database",
+        "date": "2026-09-10"
+      }
+    ],
+    "consultations": [
+      {
+        "transcript": "Patient confirms apixaban but says metoprolol dose is 'one small tablet twice a day' and cannot confirm strength.",
+        "source": "consultation",
+        "created_at": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "id": "P031",
+    "name": "Patient P031",
+    "age": 41,
+    "notes": [
+      {
+        "content": "Levothyroxine 75 mcg daily; Ferrous sulfate 325 mg daily",
+        "source": "previous_note",
+        "created_at": "2026-08-20"
+      }
+    ],
+    "medications": [
+      {
+        "name": "Levothyroxine",
+        "dose": "75 mcg",
+        "frequency": "daily",
+        "status": "active",
+        "source": "medication_database",
+        "updated_at": "2026-09-10"
+      },
+      {
+        "name": "Ferrous sulfate",
+        "dose": "325 mg",
+        "frequency": "daily",
+        "status": "active",
+        "source": "medication_database",
+        "updated_at": "2026-09-10"
+      }
+    ],
+    "allergies": [
+      {
+        "allergen": "No known medication allergies",
+        "reaction": "None documented",
+        "source": "allergy_database",
+        "updated_at": "2026-09-08"
+      }
+    ],
+    "labs": [
+      {
+        "test_name": "TSH",
+        "value": "3.1",
+        "unit": "mIU/L",
+        "source": "laboratory_database",
+        "date": "2026-09-10"
+      },
+      {
+        "test_name": "Hemoglobin",
+        "value": "11.2",
+        "unit": "g/dL",
+        "source": "laboratory_database",
+        "date": "2026-09-10"
+      },
+      {
+        "test_name": "Ferritin",
+        "value": "18",
+        "unit": "ng/mL",
+        "source": "laboratory_database",
+        "date": "2026-09-10"
+      }
+    ],
+    "consultations": [
+      {
+        "transcript": "Confirms both medications. Reports constipation and says it began after starting the iron tablets.",
+        "source": "consultation",
+        "created_at": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "id": "P032",
+    "name": "Patient P032",
+    "age": 57,
+    "notes": [
+      {
+        "content": "Pantoprazole 40 mg daily; Paracetamol 500 mg as needed",
+        "source": "previous_note",
+        "created_at": "2026-08-20"
+      }
+    ],
+    "medications": [
+      {
+        "name": "Pantoprazole",
+        "dose": "40 mg",
+        "frequency": "daily",
+        "status": "active",
+        "source": "medication_database",
+        "updated_at": "2026-09-10"
+      },
+      {
+        "name": "Paracetamol",
+        "dose": "500 mg",
+        "frequency": "as needed",
+        "status": "active",
+        "source": "medication_database",
+        "updated_at": "2026-09-10"
+      }
+    ],
+    "allergies": [
+      {
+        "allergen": "Ibuprofen",
+        "reaction": "stomach pain",
+        "source": "allergy_database",
+        "updated_at": "2026-09-08"
+      }
+    ],
+    "labs": [
+      {
+        "test_name": "Creatinine",
+        "value": "0.8",
+        "unit": "mg/dL",
+        "source": "laboratory_database",
+        "date": "2026-09-10"
+      },
+      {
+        "test_name": "Hemoglobin",
+        "value": "13.7",
+        "unit": "g/dL",
+        "source": "laboratory_database",
+        "date": "2026-09-10"
+      }
+    ],
+    "consultations": [
+      {
+        "transcript": "Patient confirms current medicines and states they avoid ibuprofen because it previously caused stomach pain.",
+        "source": "consultation",
+        "created_at": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "id": "P033",
+    "name": "Patient P033",
+    "age": 74,
+    "notes": [
+      {
+        "content": "Losartan 50 mg daily; Furosemide 20 mg daily",
+        "source": "previous_note",
+        "created_at": "2026-08-20"
+      }
+    ],
+    "medications": [
+      {
+        "name": "Losartan",
+        "dose": "50 mg",
+        "frequency": "daily",
+        "status": "active",
+        "source": "medication_database",
+        "updated_at": "2026-09-10"
+      },
+      {
+        "name": "Furosemide",
+        "dose": "40 mg",
+        "frequency": "daily",
+        "status": "active",
+        "source": "medication_database",
+        "updated_at": "2026-09-10"
+      }
+    ],
+    "allergies": [
+      {
+        "allergen": "Penicillin",
+        "reaction": "unknown reaction",
+        "source": "allergy_database",
+        "updated_at": "2026-09-08"
+      }
+    ],
+    "labs": [
+      {
+        "test_name": "Creatinine",
+        "value": "1.7",
+        "unit": "mg/dL",
+        "source": "laboratory_database",
+        "date": "2026-09-10"
+      },
+      {
+        "test_name": "Potassium",
+        "value": "4.7",
+        "unit": "mmol/L",
+        "source": "laboratory_database",
+        "date": "2026-09-10"
+      }
+    ],
+    "consultations": [
+      {
+        "transcript": "Patient says furosemide was increased recently but cannot remember the new dose. States penicillin allergy is still present.",
+        "source": "consultation",
+        "created_at": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "id": "P034",
+    "name": "Patient P034",
+    "age": 50,
+    "notes": [
+      {
+        "content": "Atorvastatin 20 mg nightly; Amlodipine 5 mg daily",
+        "source": "previous_note",
+        "created_at": "2026-08-20"
+      }
+    ],
+    "medications": [
+      {
+        "name": "Atorvastatin",
+        "dose": "20 mg",
+        "frequency": "nightly",
+        "status": "active",
+        "source": "medication_database",
+        "updated_at": "2026-09-10"
+      },
+      {
+        "name": "Amlodipine",
+        "dose": "5 mg",
+        "frequency": "daily",
+        "status": "active",
+        "source": "medication_database",
+        "updated_at": "2026-09-10"
+      }
+    ],
+    "allergies": [
+      {
+        "allergen": "No known medication allergies",
+        "reaction": "None documented",
+        "source": "allergy_database",
+        "updated_at": "2026-09-08"
+      }
+    ],
+    "labs": [
+      {
+        "test_name": "LDL",
+        "value": "101",
+        "unit": "mg/dL",
+        "source": "laboratory_database",
+        "date": "2026-09-10"
+      },
+      {
+        "test_name": "ALT",
+        "value": "26",
+        "unit": "U/L",
+        "source": "laboratory_database",
+        "date": "2026-09-10"
+      }
+    ],
+    "consultations": [
+      {
+        "transcript": "Confirms both medications and denies medication allergies. No new symptoms.",
+        "source": "consultation",
+        "created_at": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "id": "P035",
+    "name": "Patient P035",
+    "age": 45,
+    "notes": [
+      {
+        "content": "Metformin 500 mg twice daily",
+        "source": "previous_note",
+        "created_at": "2026-08-20"
+      }
+    ],
+    "medications": [
+      {
+        "name": "Metformin",
+        "dose": "500 mg",
+        "frequency": "twice daily",
+        "status": "active",
+        "source": "medication_database",
+        "updated_at": "2026-09-10"
+      },
+      {
+        "name": "Empagliflozin",
+        "dose": "10 mg",
+        "frequency": "daily",
+        "status": "active",
+        "source": "medication_database",
+        "updated_at": "2026-09-09"
+      }
+    ],
+    "allergies": [
+      {
+        "allergen": "No known medication allergies",
+        "reaction": "None documented",
+        "source": "allergy_database",
+        "updated_at": "2026-09-08"
+      }
+    ],
+    "labs": [
+      {
+        "test_name": "HbA1c",
+        "value": "7.9",
+        "unit": "%",
+        "source": "laboratory_database",
+        "date": "2026-09-10"
+      },
+      {
+        "test_name": "Creatinine",
+        "value": "0.9",
+        "unit": "mg/dL",
+        "source": "laboratory_database",
+        "date": "2026-09-10"
+      }
+    ],
+    "consultations": [
+      {
+        "transcript": "Patient reports starting a second diabetes tablet last week but cannot recall its name. Medication database identifies empagliflozin.",
+        "source": "consultation",
+        "created_at": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "id": "P036",
+    "name": "Patient P036",
+    "age": 66,
+    "notes": [
+      {
+        "content": "Tamsulosin 0.4 mg nightly; Losartan 50 mg daily",
+        "source": "previous_note",
+        "created_at": "2026-08-20"
+      }
+    ],
+    "medications": [
+      {
+        "name": "Tamsulosin",
+        "dose": "0.4 mg",
+        "frequency": "nightly",
+        "status": "active",
+        "source": "medication_database",
+        "updated_at": "2026-09-10"
+      },
+      {
+        "name": "Losartan",
+        "dose": "50 mg",
+        "frequency": "daily",
+        "status": "active",
+        "source": "medication_database",
+        "updated_at": "2026-09-10"
+      }
+    ],
+    "allergies": [
+      {
+        "allergen": "No known medication allergies",
+        "reaction": "None documented",
+        "source": "allergy_database",
+        "updated_at": "2026-09-08"
+      }
+    ],
+    "labs": [
+      {
+        "test_name": "Creatinine",
+        "value": "1.0",
+        "unit": "mg/dL",
+        "source": "laboratory_database",
+        "date": "2026-09-10"
+      }
+    ],
+    "consultations": [
+      {
+        "transcript": "Confirms both medicines. Reports light-headedness when getting up quickly in the morning.",
+        "source": "consultation",
+        "created_at": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "id": "P037",
+    "name": "Patient P037",
+    "age": 53,
+    "notes": [
+      {
+        "content": "Propranolol 20 mg twice daily",
+        "source": "previous_note",
+        "created_at": "2026-08-20"
+      }
+    ],
+    "medications": [
+      {
+        "name": "Propranolol",
+        "dose": "20 mg",
+        "frequency": "twice daily",
+        "status": "active",
+        "source": "medication_database",
+        "updated_at": "2026-09-10"
+      },
+      {
+        "name": "Sumatriptan",
+        "dose": "50 mg",
+        "frequency": "as needed",
+        "status": "active",
+        "source": "medication_database",
+        "updated_at": "2026-09-10"
+      }
+    ],
+    "allergies": [
+      {
+        "allergen": "No known medication allergies",
+        "reaction": "None documented",
+        "source": "allergy_database",
+        "updated_at": "2026-09-08"
+      }
+    ],
+    "labs": [],
+    "consultations": [
+      {
+        "transcript": "Patient confirms propranolol. Says a new migraine tablet was prescribed recently but cannot remember its name; database lists sumatriptan.",
+        "source": "consultation",
+        "created_at": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "id": "P038",
+    "name": "Patient P038",
+    "age": 31,
+    "notes": [
+      {
+        "content": "Ferrous sulfate 325 mg daily",
+        "source": "previous_note",
+        "created_at": "2026-08-20"
+      }
+    ],
+    "medications": [
+      {
+        "name": "Ferrous sulfate",
+        "dose": "325 mg",
+        "frequency": "daily",
+        "status": "discontinued",
+        "source": "medication_database",
+        "updated_at": "2026-09-07"
+      }
+    ],
+    "allergies": [
+      {
+        "allergen": "No known medication allergies",
+        "reaction": "None documented",
+        "source": "allergy_database",
+        "updated_at": "2026-09-08"
+      }
+    ],
+    "labs": [
+      {
+        "test_name": "Hemoglobin",
+        "value": "10.5",
+        "unit": "g/dL",
+        "source": "laboratory_database",
+        "date": "2026-09-10"
+      },
+      {
+        "test_name": "Ferritin",
+        "value": "11",
+        "unit": "ng/mL",
+        "source": "laboratory_database",
+        "date": "2026-09-10"
+      }
+    ],
+    "consultations": [
+      {
+        "transcript": "Patient says they stopped taking iron because of stomach discomfort approximately one week ago.",
+        "source": "consultation",
+        "created_at": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "id": "P039",
+    "name": "Patient P039",
+    "age": 59,
+    "notes": [
+      {
+        "content": "Amlodipine 5 mg daily; Allopurinol 100 mg daily",
+        "source": "previous_note",
+        "created_at": "2026-08-20"
+      }
+    ],
+    "medications": [
+      {
+        "name": "Amlodipine",
+        "dose": "5 mg",
+        "frequency": "daily",
+        "status": "active",
+        "source": "medication_database",
+        "updated_at": "2026-09-10"
+      },
+      {
+        "name": "Allopurinol",
+        "dose": "100 mg",
+        "frequency": "twice daily",
+        "status": "active",
+        "source": "medication_database",
+        "updated_at": "2026-09-10"
+      }
+    ],
+    "allergies": [
+      {
+        "allergen": "Sulfonamide antibiotics",
+        "reaction": "rash",
+        "source": "allergy_database",
+        "updated_at": "2026-09-08"
+      }
+    ],
+    "labs": [
+      {
+        "test_name": "Creatinine",
+        "value": "1.2",
+        "unit": "mg/dL",
+        "source": "laboratory_database",
+        "date": "2026-09-10"
+      },
+      {
+        "test_name": "Uric acid",
+        "value": "6.8",
+        "unit": "mg/dL",
+        "source": "laboratory_database",
+        "date": "2026-09-10"
+      }
+    ],
+    "consultations": [
+      {
+        "transcript": "Patient confirms amlodipine. Says allopurinol is taken once daily, not twice daily.",
+        "source": "consultation",
+        "created_at": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "id": "P040",
+    "name": "Patient P040",
+    "age": 80,
+    "notes": [
+      {
+        "content": "Carvedilol 6.25 mg twice daily; Furosemide 20 mg daily",
+        "source": "previous_note",
+        "created_at": "2026-08-20"
+      }
+    ],
+    "medications": [
+      {
+        "name": "Carvedilol",
+        "dose": "6.25 mg",
+        "frequency": "twice daily",
+        "status": "active",
+        "source": "medication_database",
+        "updated_at": "2026-09-10"
+      },
+      {
+        "name": "Furosemide",
+        "dose": "20 mg",
+        "frequency": "daily",
+        "status": "active",
+        "source": "medication_database",
+        "updated_at": "2026-09-10"
+      }
+    ],
+    "allergies": [
+      {
+        "allergen": "No known medication allergies",
+        "reaction": "None documented",
+        "source": "allergy_database",
+        "updated_at": "2026-09-08"
+      }
+    ],
+    "labs": [
+      {
+        "test_name": "Creatinine",
+        "value": "1.3",
+        "unit": "mg/dL",
+        "source": "laboratory_database",
+        "date": "2026-09-10"
+      },
+      {
+        "test_name": "Potassium",
+        "value": "4.3",
+        "unit": "mmol/L",
+        "source": "laboratory_database",
+        "date": "2026-09-10"
+      }
+    ],
+    "consultations": [
+      {
+        "transcript": "Confirms medications. Reports that the morning furosemide dose was missed yesterday.",
+        "source": "consultation",
+        "created_at": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "id": "P041",
+    "name": "Patient P041",
+    "age": 47,
+    "notes": [
+      {
+        "content": "Levothyroxine 50 mcg daily",
+        "source": "previous_note",
+        "created_at": "2026-08-20"
+      }
+    ],
+    "medications": [
+      {
+        "name": "Levothyroxine",
+        "dose": "75 mcg",
+        "frequency": "daily",
+        "status": "active",
+        "source": "medication_database",
+        "updated_at": "2026-09-12"
+      }
+    ],
+    "allergies": [
+      {
+        "allergen": "No known medication allergies",
+        "reaction": "None documented",
+        "source": "allergy_database",
+        "updated_at": "2026-09-08"
+      }
+    ],
+    "labs": [
+      {
+        "test_name": "TSH",
+        "value": "6.0",
+        "unit": "mIU/L",
+        "source": "laboratory_database",
+        "date": "2026-09-10"
+      },
+      {
+        "test_name": "Free T4",
+        "value": "0.9",
+        "unit": "ng/dL",
+        "source": "laboratory_database",
+        "date": "2026-09-10"
+      }
+    ],
+    "consultations": [
+      {
+        "transcript": "Patient says the dose was increased but states the new prescription is still at home and cannot confirm the strength.",
+        "source": "consultation",
+        "created_at": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "id": "P042",
+    "name": "Patient P042",
+    "age": 63,
+    "notes": [
+      {
+        "content": "Metformin 1000 mg daily; Atorvastatin 20 mg nightly",
+        "source": "previous_note",
+        "created_at": "2026-08-20"
+      }
+    ],
+    "medications": [
+      {
+        "name": "Metformin",
+        "dose": "1000 mg",
+        "frequency": "daily",
+        "status": "active",
+        "source": "medication_database",
+        "updated_at": "2026-09-10"
+      },
+      {
+        "name": "Atorvastatin",
+        "dose": "20 mg",
+        "frequency": "nightly",
+        "status": "active",
+        "source": "medication_database",
+        "updated_at": "2026-09-10"
+      }
+    ],
+    "allergies": [
+      {
+        "allergen": "Metformin",
+        "reaction": "nausea reported previously",
+        "source": "allergy_database",
+        "updated_at": "2026-09-08"
+      }
+    ],
+    "labs": [
+      {
+        "test_name": "HbA1c",
+        "value": "7.3",
+        "unit": "%",
+        "source": "laboratory_database",
+        "date": "2026-09-10"
+      },
+      {
+        "test_name": "LDL",
+        "value": "98",
+        "unit": "mg/dL",
+        "source": "laboratory_database",
+        "date": "2026-09-10"
+      }
+    ],
+    "consultations": [
+      {
+        "transcript": "Patient confirms both medicines. Reports that nausea occurred briefly when metformin was first started but is no longer present.",
+        "source": "consultation",
+        "created_at": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "id": "P043",
+    "name": "Patient P043",
+    "age": 56,
+    "notes": [
+      {
+        "content": "Budesonide/formoterol inhaler twice daily",
+        "source": "previous_note",
+        "created_at": "2026-08-20"
+      }
+    ],
+    "medications": [
+      {
+        "name": "Budesonide/formoterol",
+        "dose": "",
+        "frequency": "",
+        "status": "active",
+        "source": "medication_database",
+        "updated_at": "2026-09-10"
+      },
+      {
+        "name": "Montelukast",
+        "dose": "10 mg",
+        "frequency": "nightly",
+        "status": "active",
+        "source": "medication_database",
+        "updated_at": "2026-09-10"
+      }
+    ],
+    "allergies": [
+      {
+        "allergen": "Aspirin",
+        "reaction": "wheezing reported",
+        "source": "allergy_database",
+        "updated_at": "2026-09-08"
+      }
+    ],
+    "labs": [],
+    "consultations": [
+      {
+        "transcript": "Patient confirms inhaler and says a nightly tablet was added recently; cannot remember its name. Reports no aspirin use because it previously caused wheezing.",
+        "source": "consultation",
+        "created_at": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "id": "P044",
+    "name": "Patient P044",
+    "age": 38,
+    "notes": [
+      {
+        "content": "Cetirizine 10 mg daily",
+        "source": "previous_note",
+        "created_at": "2026-08-20"
+      }
+    ],
+    "medications": [
+      {
+        "name": "Cetirizine",
+        "dose": "10 mg",
+        "frequency": "daily",
+        "status": "active",
+        "source": "medication_database",
+        "updated_at": "2026-09-10"
+      },
+      {
+        "name": "Doxycycline",
+        "dose": "100 mg",
+        "frequency": "daily",
+        "status": "discontinued",
+        "source": "medication_database",
+        "updated_at": "2026-09-11"
+      }
+    ],
+    "allergies": [
+      {
+        "allergen": "No known medication allergies",
+        "reaction": "None documented",
+        "source": "allergy_database",
+        "updated_at": "2026-09-08"
+      }
+    ],
+    "labs": [],
+    "consultations": [
+      {
+        "transcript": "Patient says doxycycline was stopped several days ago because the course was completed.",
+        "source": "consultation",
+        "created_at": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "id": "P045",
+    "name": "Patient P045",
+    "age": 71,
+    "notes": [
+      {
+        "content": "Amlodipine 10 mg daily; Rosuvastatin 20 mg nightly",
+        "source": "previous_note",
+        "created_at": "2026-08-20"
+      }
+    ],
+    "medications": [
+      {
+        "name": "Amlodipine",
+        "dose": "5 mg",
+        "frequency": "daily",
+        "status": "active",
+        "source": "medication_database",
+        "updated_at": "2026-09-10"
+      },
+      {
+        "name": "Rosuvastatin",
+        "dose": "20 mg",
+        "frequency": "nightly",
+        "status": "active",
+        "source": "medication_database",
+        "updated_at": "2026-09-10"
+      }
+    ],
+    "allergies": [
+      {
+        "allergen": "Penicillin",
+        "reaction": "rash",
+        "source": "allergy_database",
+        "updated_at": "2026-09-08"
+      }
+    ],
+    "labs": [
+      {
+        "test_name": "LDL",
+        "value": "87",
+        "unit": "mg/dL",
+        "source": "laboratory_database",
+        "date": "2026-09-10"
+      },
+      {
+        "test_name": "Creatinine",
+        "value": "0.9",
+        "unit": "mg/dL",
+        "source": "laboratory_database",
+        "date": "2026-09-10"
+      }
+    ],
+    "consultations": [
+      {
+        "transcript": "Patient says the amlodipine tablet was changed recently but is unsure whether the dose is now 5 mg or 10 mg.",
+        "source": "consultation",
+        "created_at": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "id": "P046",
+    "name": "Patient P046",
+    "age": 60,
+    "notes": [
+      {
+        "content": "Omeprazole 20 mg daily; Losartan 50 mg daily",
+        "source": "previous_note",
+        "created_at": "2026-08-20"
+      }
+    ],
+    "medications": [
+      {
+        "name": "Omeprazole",
+        "dose": "20 mg",
+        "frequency": "daily",
+        "status": "active",
+        "source": "medication_database",
+        "updated_at": "2026-09-10"
+      },
+      {
+        "name": "Losartan",
+        "dose": "50 mg",
+        "frequency": "daily",
+        "status": "active",
+        "source": "medication_database",
+        "updated_at": "2026-09-10"
+      }
+    ],
+    "allergies": [
+      {
+        "allergen": "No known medication allergies",
+        "reaction": "None documented",
+        "source": "allergy_database",
+        "updated_at": "2026-09-08"
+      }
+    ],
+    "labs": [
+      {
+        "test_name": "Creatinine",
+        "value": "0.9",
+        "unit": "mg/dL",
+        "source": "laboratory_database",
+        "date": "2026-09-10"
+      }
+    ],
+    "consultations": [
+      {
+        "transcript": "Confirms both medicines and says there have been no changes since the previous visit.",
+        "source": "consultation",
+        "created_at": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "id": "P047",
+    "name": "Patient P047",
+    "age": 52,
+    "notes": [
+      {
+        "content": "Sertraline 50 mg daily; Levothyroxine 75 mcg daily",
+        "source": "previous_note",
+        "created_at": "2026-08-20"
+      }
+    ],
+    "medications": [
+      {
+        "name": "Sertraline",
+        "dose": "50 mg",
+        "frequency": "daily",
+        "status": "active",
+        "source": "medication_database",
+        "updated_at": "2026-09-10"
+      },
+      {
+        "name": "Levothyroxine",
+        "dose": "75 mcg",
+        "frequency": "daily",
+        "status": "active",
+        "source": "medication_database",
+        "updated_at": "2026-09-10"
+      }
+    ],
+    "allergies": [
+      {
+        "allergen": "Penicillin",
+        "reaction": "rash",
+        "source": "allergy_database",
+        "updated_at": "2026-09-08"
+      }
+    ],
+    "labs": [
+      {
+        "test_name": "TSH",
+        "value": "2.9",
+        "unit": "mIU/L",
+        "source": "laboratory_database",
+        "date": "2026-09-10"
+      }
+    ],
+    "consultations": [
+      {
+        "transcript": "Patient confirms both medications. When asked about allergies, reports a penicillin rash in childhood.",
+        "source": "consultation",
+        "created_at": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "id": "P048",
+    "name": "Patient P048",
+    "age": 67,
+    "notes": [
+      {
+        "content": "Metformin 500 mg twice daily",
+        "source": "previous_note",
+        "created_at": "2026-08-20"
+      }
+    ],
+    "medications": [
+      {
+        "name": "Metformin",
+        "dose": "500 mg",
+        "frequency": "twice daily",
+        "status": "active",
+        "source": "medication_database",
+        "updated_at": "2026-09-10"
+      }
+    ],
+    "allergies": [
+      {
+        "allergen": "No known medication allergies",
+        "reaction": "None documented",
+        "source": "allergy_database",
+        "updated_at": "2026-09-08"
+      }
+    ],
+    "labs": [
+      {
+        "test_name": "Creatinine",
+        "value": "1.6",
+        "unit": "mg/dL",
+        "source": "laboratory_database",
+        "date": "2026-09-10"
+      },
+      {
+        "test_name": "HbA1c",
+        "value": "7.5",
+        "unit": "%",
+        "source": "laboratory_database",
+        "date": "2026-09-10"
+      }
+    ],
+    "consultations": [
+      {
+        "transcript": "Patient confirms metformin. Consultation mentions a recent lab discussion but gives no additional medication changes.",
+        "source": "consultation",
+        "created_at": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "id": "P049",
+    "name": "Patient P049",
+    "age": 43,
+    "notes": [
+      {
+        "content": "Amlodipine 5 mg daily; Sumatriptan 50 mg as needed",
+        "source": "previous_note",
+        "created_at": "2026-08-20"
+      }
+    ],
+    "medications": [
+      {
+        "name": "Amlodipine",
+        "dose": "5 mg",
+        "frequency": "daily",
+        "status": "active",
+        "source": "medication_database",
+        "updated_at": "2026-09-10"
+      },
+      {
+        "name": "Sumatriptan",
+        "dose": "100 mg",
+        "frequency": "as needed",
+        "status": "active",
+        "source": "medication_database",
+        "updated_at": "2026-09-10"
+      }
+    ],
+    "allergies": [
+      {
+        "allergen": "No known medication allergies",
+        "reaction": "None documented",
+        "source": "allergy_database",
+        "updated_at": "2026-09-08"
+      }
+    ],
+    "labs": [
+      {
+        "test_name": "Creatinine",
+        "value": "0.8",
+        "unit": "mg/dL",
+        "source": "laboratory_database",
+        "date": "2026-09-10"
+      }
+    ],
+    "consultations": [
+      {
+        "transcript": "Patient confirms amlodipine. Says migraine tablets are 50 mg, while database lists 100 mg.",
+        "source": "consultation",
+        "created_at": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "id": "P050",
+    "name": "Patient P050",
+    "age": 77,
+    "notes": [
+      {
+        "content": "Apixaban 5 mg twice daily",
+        "source": "previous_note",
+        "created_at": "2026-08-20"
+      }
+    ],
+    "medications": [
+      {
+        "name": "Apixaban",
+        "dose": "5 mg",
+        "frequency": "twice daily",
+        "status": "active",
+        "source": "medication_database",
+        "updated_at": "2026-09-10"
+      }
+    ],
+    "allergies": [
+      {
+        "allergen": "Penicillin",
+        "reaction": "unknown reaction",
+        "source": "allergy_database",
+        "updated_at": "2026-09-08"
+      }
+    ],
+    "labs": [
+      {
+        "test_name": "Creatinine",
+        "value": "1.8",
+        "unit": "mg/dL",
+        "source": "laboratory_database",
+        "date": "2026-09-10"
+      },
+      {
+        "test_name": "Hemoglobin",
+        "value": "12.2",
+        "unit": "g/dL",
+        "source": "laboratory_database",
+        "date": "2026-09-10"
+      }
+    ],
+    "consultations": [
+      {
+        "transcript": "Confirms apixaban and penicillin allergy. No medication changes reported.",
+        "source": "consultation",
+        "created_at": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "id": "P051",
+    "name": "Patient P051",
+    "age": 36,
+    "notes": [
+      {
+        "content": "Levothyroxine 50 mcg daily; Cetirizine 10 mg daily",
+        "source": "previous_note",
+        "created_at": "2026-08-20"
+      }
+    ],
+    "medications": [
+      {
+        "name": "Levothyroxine",
+        "dose": "50 mcg",
+        "frequency": "daily",
+        "status": "active",
+        "source": "medication_database",
+        "updated_at": "2026-09-10"
+      },
+      {
+        "name": "Cetirizine",
+        "dose": "10 mg",
+        "frequency": "daily",
+        "status": "active",
+        "source": "medication_database",
+        "updated_at": "2026-09-10"
+      }
+    ],
+    "allergies": [
+      {
+        "allergen": "No known medication allergies",
+        "reaction": "None documented",
+        "source": "allergy_database",
+        "updated_at": "2026-09-08"
+      }
+    ],
+    "labs": [
+      {
+        "test_name": "TSH",
+        "value": "2.6",
+        "unit": "mIU/L",
+        "source": "laboratory_database",
+        "date": "2026-09-10"
+      }
+    ],
+    "consultations": [
+      {
+        "transcript": "Confirms both medicines and doses. No new symptoms.",
+        "source": "consultation",
+        "created_at": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "id": "P052",
+    "name": "Patient P052",
+    "age": 65,
+    "notes": [
+      {
+        "content": "Metformin 1000 mg daily; Losartan 50 mg daily",
+        "source": "previous_note",
+        "created_at": "2026-08-20"
+      }
+    ],
+    "medications": [
+      {
+        "name": "Metformin",
+        "dose": "1000 mg",
+        "frequency": "daily",
+        "status": "active",
+        "source": "medication_database",
+        "updated_at": "2026-09-10"
+      },
+      {
+        "name": "Losartan",
+        "dose": "50 mg",
+        "frequency": "daily",
+        "status": "active",
+        "source": "medication_database",
+        "updated_at": "2026-09-10"
+      },
+      {
+        "name": "Amlodipine",
+        "dose": "5 mg",
+        "frequency": "daily",
+        "status": "active",
+        "source": "medication_database",
+        "updated_at": "2026-09-08"
+      }
+    ],
+    "allergies": [
+      {
+        "allergen": "Penicillin",
+        "reaction": "rash",
+        "source": "allergy_database",
+        "updated_at": "2026-09-08"
+      }
+    ],
+    "labs": [
+      {
+        "test_name": "HbA1c",
+        "value": "7.7",
+        "unit": "%",
+        "source": "laboratory_database",
+        "date": "2026-09-10"
+      },
+      {
+        "test_name": "Creatinine",
+        "value": "1.0",
+        "unit": "mg/dL",
+        "source": "laboratory_database",
+        "date": "2026-09-10"
+      }
+    ],
+    "consultations": [
+      {
+        "transcript": "Patient mentions a new blood-pressure tablet but calls it 'the small white pill' and cannot identify it.",
+        "source": "consultation",
+        "created_at": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "id": "P053",
+    "name": "Patient P053",
+    "age": 58,
+    "notes": [
+      {
+        "content": "Rosuvastatin 10 mg nightly; Paracetamol 500 mg as needed",
+        "source": "previous_note",
+        "created_at": "2026-08-20"
+      }
+    ],
+    "medications": [
+      {
+        "name": "Rosuvastatin",
+        "dose": "10 mg",
+        "frequency": "nightly",
+        "status": "active",
+        "source": "medication_database",
+        "updated_at": "2026-09-10"
+      },
+      {
+        "name": "Paracetamol",
+        "dose": "500 mg",
+        "frequency": "as needed",
+        "status": "active",
+        "source": "medication_database",
+        "updated_at": "2026-09-10"
+      }
+    ],
+    "allergies": [
+      {
+        "allergen": "Naproxen",
+        "reaction": "rash",
+        "source": "allergy_database",
+        "updated_at": "2026-09-08"
+      }
+    ],
+    "labs": [
+      {
+        "test_name": "LDL",
+        "value": "93",
+        "unit": "mg/dL",
+        "source": "laboratory_database",
+        "date": "2026-09-10"
+      },
+      {
+        "test_name": "Creatinine",
+        "value": "0.9",
+        "unit": "mg/dL",
+        "source": "laboratory_database",
+        "date": "2026-09-10"
+      }
+    ],
+    "consultations": [
+      {
+        "transcript": "Confirms current medications. Reports that naproxen previously caused a rash and is not currently taking it.",
+        "source": "consultation",
+        "created_at": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "id": "P054",
+    "name": "Patient P054",
+    "age": 49,
+    "notes": [
+      {
+        "content": "Amlodipine 5 mg daily; Pantoprazole 40 mg daily",
+        "source": "previous_note",
+        "created_at": "2026-08-20"
+      }
+    ],
+    "medications": [
+      {
+        "name": "Amlodipine",
+        "dose": "5 mg",
+        "frequency": "daily",
+        "status": "discontinued",
+        "source": "medication_database",
+        "updated_at": "2026-09-13"
+      },
+      {
+        "name": "Losartan",
+        "dose": "50 mg",
+        "frequency": "daily",
+        "status": "active",
+        "source": "medication_database",
+        "updated_at": "2026-09-13"
+      },
+      {
+        "name": "Pantoprazole",
+        "dose": "40 mg",
+        "frequency": "daily",
+        "status": "active",
+        "source": "medication_database",
+        "updated_at": "2026-09-10"
+      }
+    ],
+    "allergies": [
+      {
+        "allergen": "No known medication allergies",
+        "reaction": "None documented",
+        "source": "allergy_database",
+        "updated_at": "2026-09-08"
+      }
+    ],
+    "labs": [
+      {
+        "test_name": "Creatinine",
+        "value": "0.9",
+        "unit": "mg/dL",
+        "source": "laboratory_database",
+        "date": "2026-09-10"
+      }
+    ],
+    "consultations": [
+      {
+        "transcript": "Patient says amlodipine was stopped and a new blood-pressure tablet was started, but cannot remember its name.",
+        "source": "consultation",
+        "created_at": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "id": "P055",
+    "name": "Patient P055",
+    "age": 61,
+    "notes": [
+      {
+        "content": "Metformin 500 mg twice daily; Losartan 50 mg daily; Atorvastatin 20 mg nightly",
+        "source": "previous_note",
+        "created_at": "2026-08-20"
+      }
+    ],
+    "medications": [
+      {
+        "name": "Metformin",
+        "dose": "500 mg",
+        "frequency": "twice daily",
+        "status": "active",
+        "source": "medication_database",
+        "updated_at": "2026-09-10"
+      },
+      {
+        "name": "Losartan",
+        "dose": "50 mg",
+        "frequency": "daily",
+        "status": "active",
+        "source": "medication_database",
+        "updated_at": "2026-09-10"
+      },
+      {
+        "name": "Atorvastatin",
+        "dose": "40 mg",
+        "frequency": "nightly",
+        "status": "active",
+        "source": "medication_database",
+        "updated_at": "2026-09-10"
+      }
+    ],
+    "allergies": [
+      {
+        "allergen": "Atorvastatin",
+        "reaction": "muscle aches reported historically",
+        "source": "allergy_database",
+        "updated_at": "2026-09-08"
+      }
+    ],
+    "labs": [
+      {
+        "test_name": "HbA1c",
+        "value": "7.6",
+        "unit": "%",
+        "source": "laboratory_database",
+        "date": "2026-09-10"
+      },
+      {
+        "test_name": "LDL",
+        "value": "104",
+        "unit": "mg/dL",
+        "source": "laboratory_database",
+        "date": "2026-09-10"
+      },
+      {
+        "test_name": "Creatinine",
+        "value": "1.0",
+        "unit": "mg/dL",
+        "source": "laboratory_database",
+        "date": "2026-09-10"
+      }
+    ],
+    "consultations": [
+      {
+        "transcript": "Patient says atorvastatin tablet is 20 mg and reports previous muscle aches while taking a higher dose.",
+        "source": "consultation",
+        "created_at": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "id": "P056",
+    "name": "Patient P056",
+    "age": 70,
+    "notes": [
+      {
+        "content": "Alendronate 70 mg weekly; Levothyroxine 75 mcg daily",
+        "source": "previous_note",
+        "created_at": "2026-08-20"
+      }
+    ],
+    "medications": [
+      {
+        "name": "Alendronate",
+        "dose": "70 mg",
+        "frequency": "weekly",
+        "status": "active",
+        "source": "medication_database",
+        "updated_at": "2026-09-10"
+      },
+      {
+        "name": "Levothyroxine",
+        "dose": "75 mcg",
+        "frequency": "daily",
+        "status": "active",
+        "source": "medication_database",
+        "updated_at": "2026-09-10"
+      }
+    ],
+    "allergies": [
+      {
+        "allergen": "No known medication allergies",
+        "reaction": "None documented",
+        "source": "allergy_database",
+        "updated_at": "2026-09-08"
+      }
+    ],
+    "labs": [
+      {
+        "test_name": "TSH",
+        "value": "2.8",
+        "unit": "mIU/L",
+        "source": "laboratory_database",
+        "date": "2026-09-10"
+      },
+      {
+        "test_name": "Calcium",
+        "value": "9.1",
+        "unit": "mg/dL",
+        "source": "laboratory_database",
+        "date": "2026-09-10"
+      }
+    ],
+    "consultations": [
+      {
+        "transcript": "Confirms both medicines, weekly alendronate schedule, and levothyroxine dose. No new complaints.",
+        "source": "consultation",
+        "created_at": "2026-09-14"
+      }
+    ]
+  }
+]

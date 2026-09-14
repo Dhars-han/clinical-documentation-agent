@@ -9,7 +9,7 @@ import {
   SimulationScenario
 } from '../types/clinical';
 
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://127.0.0.1:8000';
+const API_BASE_URL = import.meta.env.VITE_API_URL ?? (import.meta.env.DEV ? 'http://127.0.0.1:8000' : '');
 
 async function request<T>(endpoint: string, options: RequestInit = {}): Promise<T> {
   const url = `${API_BASE_URL}${endpoint}`;
@@ -37,7 +37,8 @@ async function request<T>(endpoint: string, options: RequestInit = {}): Promise<
     return await response.json();
   } catch (err: any) {
     if (err.name === 'TypeError' && err.message.includes('fetch')) {
-      throw new Error(`Cannot connect to backend server at ${API_BASE_URL}. Ensure FastAPI is running on port 8000.`);
+      const target = API_BASE_URL || window.location.origin;
+      throw new Error(`Cannot connect to backend server at ${target}. Ensure the API is reachable.`);
     }
     throw err;
   }

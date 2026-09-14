@@ -15,6 +15,7 @@ try:
     from backend.documentation import DocumentationService
     from backend.validation import ValidationService
     from backend.llm import get_llm_client
+    from backend.seed_patients import auto_seed_if_needed
 except ImportError:
     from .database import SessionLocal
     from .models import Patient, Note, Medication, Allergy, Lab, Consultation
@@ -24,6 +25,10 @@ except ImportError:
     from .documentation import DocumentationService
     from .validation import ValidationService
     from .llm import get_llm_client
+    try:
+        from .seed_patients import auto_seed_if_needed
+    except ImportError:
+        def auto_seed_if_needed(): pass
 
 # pyrefly: ignore [missing-import]
 from fastapi.middleware.cors import CORSMiddleware
@@ -38,6 +43,12 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+
+@app.on_event("startup")
+def on_startup():
+    """Ensure database tables and synthetic patients P001, P007–P056 exist."""
+    auto_seed_if_needed()
 
 
 def get_db():
