@@ -2,11 +2,7 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "buildCommand": "cd frontend && npm install && npm run build",
   "outputDirectory": "frontend/dist",
-  "functions": {
-    "backend/main.py": {
-      "includeFiles": "{backend/**,data/**,clinical.db}"
-    }
-  },
+ 
   "rewrites": [
     { "source": "/api/(.*)", "destination": "/$1" },
     { "source": "/((?!api|patients|rag|config).*)", "destination": "/index.html" }
