@@ -48,7 +48,10 @@ app.add_middleware(
 @app.on_event("startup")
 def on_startup():
     """Ensure database tables and synthetic patients P001, P007–P056 exist."""
-    auto_seed_if_needed()
+    try:
+        auto_seed_if_needed()
+    except Exception as e:
+        print(f"Warning: Startup auto-seeding encountered non-fatal notice: {e}")
 
 
 def get_db():

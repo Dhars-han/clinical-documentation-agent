@@ -1,36 +1,52 @@
 """Vercel Serverless Function entry point for the Clinical Agent API.
 
 This file is automatically detected by Vercel's Python runtime.
-It routes requests to the FastAPI application while transparently handling
-optional '/api/' path prefixes.
+It exports the native FastAPI ASGI app instance.
 """
 
 import os
 import sys
+import traceback
+import logging
 
-# Ensure the project root directory is on sys.path
+# Ensure both project root and api directory are on sys.path
 CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
 PROJECT_ROOT = os.path.dirname(CURRENT_DIR)
-if PROJECT_ROOT not in sys.path:
-    sys.path.insert(0, PROJECT_ROOT)
 
-from backend.main import app as clinical_app
+for p in [PROJECT_ROOT, CURRENT_DIR, os.getcwd()]:
+    if p and p not in sys.path:
+        sys.path.insert(0, p)
 
+try:
+    from fastapi import Request
+    from backend.main import app
 
-class PathRewriterMiddleware:
-    """Transparently normalizes paths so both /api/... and direct endpoints work on Vercel."""
+    @app.middleware("http")
+    async def rewrite_api_prefix(request: Request, call_next):
+        """Transparently strips '/api' prefix so both /api/... and direct endpoints work on Vercel."""
+        if request.scope.get("path", "").startswith("/api/"):
+            request.scope["path"] = request.scope["path"][4:]
+        elif request.scope.get("path", "") == "/api":
+            request.scope["path"] = "/"
+        response = await call_next(request)
+        return response
 
-    def __init__(self, app):
-        self.app = app
+except Exception as err:
+    logging.error(f"CRITICAL: Failed to load FastAPI app on Vercel: {err}\n{traceback.format_exc()}")
+    from fastapi import FastAPI
+    from fastapi.responses import JSONResponse
 
-    async def __call__(self, scope, receive, send):
-        if scope.get("type") == "http":
-            path = scope.get("path", "")
-            if path.startswith("/api/"):
-                scope["path"] = path[4:]  # Strip '/api' prefix
-            elif path == "/api":
-                scope["path"] = "/"
-        await self.app(scope, receive, send)
+    app = FastAPI()
 
-
-app = PathRewriterMiddleware(clinical_app)
+    @app.api_route("/{path:path}", methods=["GET", "POST", "PUT", "DELETE"])
+    def fallback_diagnostics(path: str):
+        return JSONResponse(
+            status_code=500,
+            content={
+                "error": "Serverless Function Initialization Error",
+                "detail": str(err),
+                "sys_path": sys.path[:5],
+                "cwd": os.getcwd(),
+                "traceback": traceback.format_exc().split("\n")
+            }
+        )

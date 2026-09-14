@@ -11,9 +11,24 @@ if DATABASE_URL:
         DATABASE_URL = DATABASE_URL.replace("postgres://", "postgresql://", 1)
     engine = create_engine(DATABASE_URL, pool_pre_ping=True)
 else:
-    # Anchor SQLite database path reliably to project root directory
     PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    DB_PATH = os.path.join(PROJECT_ROOT, "clinical.db")
+
+    # On Vercel / AWS Lambda, the root deployment directory (/var/task) is read-only.
+    # SQLite requires write access for locking and WAL/journal files.
+    # We copy the database to /tmp where SQLite has full read/write permissions.
+    if os.environ.get("VERCEL") or os.environ.get("AWS_LAMBDA_FUNCTION_NAME"):
+        import shutil
+        tmp_db = "/tmp/clinical.db"
+        bundled_db = os.path.join(PROJECT_ROOT, "clinical.db")
+        if not os.path.exists(tmp_db) and os.path.exists(bundled_db):
+            try:
+                shutil.copy2(bundled_db, tmp_db)
+            except Exception as e:
+                print(f"Warning: Failed to copy {bundled_db} to {tmp_db}: {e}")
+        DB_PATH = tmp_db
+    else:
+        DB_PATH = os.path.join(PROJECT_ROOT, "clinical.db")
+
     DATABASE_URL = f"sqlite:///{DB_PATH}"
     engine = create_engine(
         DATABASE_URL,
